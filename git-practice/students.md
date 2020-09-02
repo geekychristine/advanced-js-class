@@ -13,9 +13,14 @@
 
 ## [Your Name]
 
+**GitHub Profile URL:**
+**Major:** (Software Engineering, etc)
+**Favorite Music Genre/Artist:**
+**Favorite Hobby:**
+
+---
+
 **GitHub Profile URL: https://github.com/Jonbodoe**
 **Major:** Web Development**
 **Favorite Music Genre/Artist: De la Soul**
 **Favorite Hobby: Anything involving being outside**
-
----
