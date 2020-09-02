@@ -11,11 +11,11 @@
 7. Open a Pull Request to merge your branch into the `main` branch.
 8. Done!
 
-## [Your Name]
+## [Chinmay Joshi]
 
 **GitHub Profile URL:**
-**Major:** (Software Engineering, etc)
-**Favorite Music Genre/Artist:**
-**Favorite Hobby:**
+**Major:** (User Experience & Interaction Design)
+**Favorite Music Genre/Artist:** Rock, R&B, Classical, etc.
+**Favorite Hobby:** Binge Watching series, sleeping, listening to music.
 
 ---
