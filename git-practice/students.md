@@ -11,11 +11,11 @@
 7. Open a Pull Request to merge your branch into the `main` branch.
 8. Done!
 
-## [Your Name]
+## [Sam Andrew]
 
-**GitHub Profile URL:**
-**Major:** (Software Engineering, etc)
-**Favorite Music Genre/Artist:**
-**Favorite Hobby:**
+**GitHub Profile URL:** https://github.com/samandrew26
+**Major:** Web Dev
+**Favorite Music Genre/Artist:** Classic Rock 
+**Favorite Hobby:** Movies 
 
 ---
