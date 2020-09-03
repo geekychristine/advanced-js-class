@@ -20,7 +20,7 @@
 
 ---
 
-**GitHub Profile URL: https://github.com/lesley92**
-**Major:** Web Design & Development**
-**Favorite Music Genre/Artist: Rock/Metal**
-**Favorite Hobby: Makeup**
+**GitHub Profile URL:** https://github.com/lesley92
+**Major:** Web Design & Development
+**Favorite Music Genre/Artist:** Rock/Metal
+**Favorite Hobby:** Makeup
