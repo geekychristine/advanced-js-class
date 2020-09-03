@@ -19,3 +19,9 @@
 **Favorite Hobby:**
 
 ---
+## [Gia Pittman]
+
+**GitHub Profile URL:**https://github.com/PandaXCereal
+**Major:** Web Design & Developement
+**Favorite Music Genre/Artist:** VaporWave/Future Funk
+**Favorite Hobby:** Reading
