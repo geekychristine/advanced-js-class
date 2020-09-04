@@ -11,11 +11,11 @@
 7. Open a Pull Request to merge your branch into the `main` branch.
 8. Done!
 
-## [Your Name]
+## [Jess]
 
-**GitHub Profile URL:**
-**Major:** (Software Engineering, etc)
-**Favorite Music Genre/Artist:**
-**Favorite Hobby:**
+**GitHub Profile URL:** https://github.com/jessicafulford1996
+**Major:** Web Design
+**Favorite Music Genre/Artist:** Tame Impala
+**Favorite Hobby:** Gardening or making music 
 
 ---
