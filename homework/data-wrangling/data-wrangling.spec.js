@@ -1,4 +1,4 @@
-import { getPosts, getTitles } from "./data-wrangling";
+import { getPosts, getTitles, getNames } from "./data-wrangling";
 
 const testPosts = [
   {
@@ -30,6 +30,14 @@ const titles = [
   "enim quo cumque"
 ];
 
+const names = [
+  "Jodie Whittaker",
+  "David Tennant",
+  "Matt Smith",
+  "Tom Baker",
+  "Peter Capaldi"
+];
+
 describe("User Posts", () => {
   test("Return all posts by a specific user", () => {
     expect(getPosts(4)).toEqual(testPosts);
@@ -37,5 +45,9 @@ describe("User Posts", () => {
 
   test("Return only titles of posts by UserId 4", () => {
     expect(getTitles(4)).toEqual(titles);
+  });
+
+  test("Return a list of all post authors' names", () => {
+    expect(getNames()).toEqual(names);
   });
 });
