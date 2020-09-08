@@ -11,14 +11,7 @@
 7. Open a Pull Request to merge your branch into the `main` branch.
 8. Done!
 
-## [Your Name]
-
-**GitHub Profile URL:**
-**Major:** (Software Engineering, etc)
-**Favorite Music Genre/Artist:**
-**Favorite Hobby:**
-
----
+## Lesley
 
 **GitHub Profile URL:** https://github.com/lesley92
 **Major:** Web Design & Development
