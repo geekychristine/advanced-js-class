@@ -12,7 +12,6 @@ const bot = new App({
 
 // Respond to Events
 bot.event("app_mention", ({ context, event }) => {
-  console.log(context, event);
   try {
     bot.client.chat.postMessage({
       token: context.botToken,
