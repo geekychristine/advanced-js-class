@@ -11,9 +11,10 @@ const bot = new App({
 });
 
 // Respond to Events
-bot.event("app_mention", async ({ context, event }) => {
+bot.event("app_mention", ({ context, event }) => {
+  console.log(context, event);
   try {
-    await bot.client.chat.postMessage({
+    bot.client.chat.postMessage({
       token: context.botToken,
       channel: event.channel,
       text: `Hey yoo <@${event.user}> you mentioned me`,
@@ -23,7 +24,6 @@ bot.event("app_mention", async ({ context, event }) => {
   }
 });
 
-// Start App
 (async () => {
   // Start the app
   await bot.start(process.env.PORT || 3000);
