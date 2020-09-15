@@ -1,7 +1,4 @@
 import {
-  inventors,
-  people,
-  data,
   inventorsBirthYear,
   inventorNames,
   inventorBirthYears,
@@ -41,19 +38,19 @@ describe("Inventors", () => {
     expect(inventorBirthYears()).toEqual();
   });
 
-  test("inventorTotalYears", () => {
+  test("Tally of years inventors lived", () => {
     expect(inventorTotalYears()).toEqual();
   });
 
-  test("inventorYearsLived", () => {
+  test("Sorted list of inventors by years lived", () => {
     expect(inventorYearsLived()).toEqual();
   });
 
-  test("parisianBoulevards", () => {
-    expect(parisianBoulevards()).toEqual();
+  test("List of Boulevards in Paris that contain 'de' anywhere in the name", () => {
+    expect(parisianBoulevards("de")).toEqual();
   });
 
-  test("peopleSorted", () => {
+  test("Sort the people alphabetically by last name", () => {
     expect(peopleSorted()).toEqual();
   });
 
