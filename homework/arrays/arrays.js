@@ -1,3 +1,4 @@
+// Just some dummy data to work with.
 export const inventors = [
   { first: "Albert", last: "Einstein", year: 1879, passed: 1955 },
   { first: "Isaac", last: "Newton", year: 1643, passed: 1727 },
@@ -10,7 +11,7 @@ export const inventors = [
   { first: "Ada", last: "Lovelace", year: 1815, passed: 1852 },
   { first: "Sarah E.", last: "Goode", year: 1855, passed: 1905 },
   { first: "Lise", last: "Meitner", year: 1878, passed: 1968 },
-  { first: "Hanna", last: "Hammarström", year: 1829, passed: 1909 },
+  { first: "Hanna", last: "Hammarström", year: 1829, passed: 1909 }
 ];
 
 export const people = [
@@ -54,7 +55,7 @@ export const people = [
   "Black, Elk",
   "Blair, Robert",
   "Blair, Tony",
-  "Blake, William",
+  "Blake, William"
 ];
 
 // Array.prototype.filter()
@@ -64,7 +65,7 @@ export const inventorsBirthYear = () => {};
 
 // Array.prototype.map()
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
-// 2. Give us an array of the inventors first and last names
+// 2. Give us an array of the inventors first and last names, e.g: "Curie, Marie"
 export const inventorNames = () => {};
 
 // Array.prototype.sort()
@@ -104,7 +105,7 @@ export const data = [
   "car",
   "van",
   "car",
-  "truck",
+  "truck"
 ];
 
 export const dataInstances = () => {};
