@@ -1,12 +1,10 @@
 import {
   inventorsBirthYear,
   inventorNames,
-  inventorBirthYears,
-  inventorTotalYears,
+  inventorsByEldest,
   inventorYearsLived,
   parisianBoulevards,
-  peopleSorted,
-  dataInstances
+  peopleSorted
 } from "./arrays";
 
 describe("Inventors", () => {
@@ -35,11 +33,20 @@ describe("Inventors", () => {
   });
 
   test("Sort the inventors by birthdate, oldest to youngest", () => {
-    expect(inventorBirthYears()).toEqual();
-  });
-
-  test("Tally of years inventors lived", () => {
-    expect(inventorTotalYears()).toEqual();
+    expect(inventorsByEldest()).toEqual([
+      { first: "Nicolaus", last: "Copernicus", passed: 1543, year: 1473 },
+      { first: "Galileo", last: "Galilei", passed: 1642, year: 1564 },
+      { first: "Johannes", last: "Kepler", passed: 1630, year: 1571 },
+      { first: "Isaac", last: "Newton", passed: 1727, year: 1643 },
+      { first: "Ada", last: "Lovelace", passed: 1852, year: 1815 },
+      { first: "Hanna", last: "Hammarström", passed: 1909, year: 1829 },
+      { first: "Sarah E.", last: "Goode", passed: 1905, year: 1855 },
+      { first: "Max", last: "Planck", passed: 1947, year: 1858 },
+      { first: "Marie", last: "Curie", passed: 1934, year: 1867 },
+      { first: "Lise", last: "Meitner", passed: 1968, year: 1878 },
+      { first: "Albert", last: "Einstein", passed: 1955, year: 1879 },
+      { first: "Katherine", last: "Blodgett", passed: 1979, year: 1898 }
+    ]);
   });
 
   test("Sorted list of inventors by years lived", () => {
@@ -52,9 +59,5 @@ describe("Inventors", () => {
 
   test("Sort the people alphabetically by last name", () => {
     expect(peopleSorted()).toEqual();
-  });
-
-  test("Sum of the instances of each item in array", () => {
-    expect(dataInstances()).toEqual();
   });
 });

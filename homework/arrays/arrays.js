@@ -71,41 +71,15 @@ export const inventorNames = () => {};
 // Array.prototype.sort()
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
 // 3. Sort the inventors by birthdate, oldest to youngest
-export const inventorBirthYears = () => {};
+export const inventorsByEldest = () => {};
 
-// Array.prototype.reduce()
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
-// 4. How many years did all the inventors live all together?
-export const inventorTotalYears = () => {};
-
-// 5. Sort the inventors by years lived
+// 4. Sort the inventors by years lived
 export const inventorYearsLived = () => {};
 
-// 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
+// 5. create a list of Boulevards in Paris that contain 'de' anywhere in the name
 // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
 export const parisianBoulevards = () => {};
 
-// 7. sort Exercise
+// 6. sort Exercise
 // Sort the people alphabetically by last name
 export const peopleSorted = () => {};
-
-// 8. Reduce Exercise
-// Sum up the instances of each of these
-export const data = [
-  "car",
-  "car",
-  "truck",
-  "truck",
-  "bike",
-  "walk",
-  "car",
-  "van",
-  "bike",
-  "walk",
-  "car",
-  "van",
-  "car",
-  "truck"
-];
-
-export const dataInstances = () => {};
