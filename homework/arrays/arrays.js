@@ -70,7 +70,7 @@ export const inventorNames = () => {};
 
 // Array.prototype.sort()
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
-// 3. Sort the inventors by birthdate, oldest to youngest
+// 3. Sort the inventors by birth date, oldest to youngest
 export const inventorsByEldest = () => {};
 
 // 4. Sort the inventors by years lived

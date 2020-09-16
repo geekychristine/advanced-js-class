@@ -80,7 +80,49 @@ describe("Inventors", () => {
     ]);
   });
 
-  test("Sort the people alphabetically by last name", () => {
-    expect(peopleSorted()).toEqual();
+  test.only("Sort the people alphabetically by last name", () => {
+    expect(peopleSorted()).toEqual([
+      "Beck, Glenn",
+      "Becker, Carl",
+      "Beckett, Samuel",
+      "Beddoes, Mick",
+      "Beecher, Henry",
+      "Beethoven, Ludwig",
+      "Begin, Menachem",
+      "Belloc, Hilaire",
+      "Bellow, Saul",
+      "Ben-Gurion, David",
+      "Benchley, Robert",
+      "Benenson, Peter",
+      "Benjamin, Walter",
+      "Benn, Tony",
+      "Bennington, Chester",
+      "Benson, Leana",
+      "Bent, Silas",
+      "Bentsen, Lloyd",
+      "Berger, Ric",
+      "Bergman, Ingmar",
+      "Berio, Luciano",
+      "Berle, Milton",
+      "Berlin, Irving",
+      "Berne, Eric",
+      "Bernhard, Sandra",
+      "Berra, Yogi",
+      "Berry, Halle",
+      "Berry, Wendell",
+      "Bethea, Erin",
+      "Bevan, Aneurin",
+      "Bevel, Ken",
+      "Biden, Joseph",
+      "Bierce, Ambrose",
+      "Biko, Steve",
+      "Billings, Josh",
+      "Biondo, Frank",
+      "Birrell, Augustine",
+      "Black, Elk",
+      "Blair, Robert",
+      "Blair, Tony",
+      "Blake, William"
+    ]);
   });
 });
