@@ -74,12 +74,9 @@ export const inventorNames = () => {};
 export const inventorsByEldest = () => {};
 
 // 4. Sort the inventors by years lived
+// (Hint: calculate their ages in the sort() comparison function. Check out sort() on MDN for examples.)
 export const inventorYearsLived = () => {};
 
-// 5. create a list of Boulevards in Paris that contain 'de' anywhere in the name
-// https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
-export const parisianBoulevards = () => {};
-
-// 6. sort Exercise
+// 5. sort Exercise
 // Sort the people alphabetically by last name
 export const peopleSorted = () => {};
