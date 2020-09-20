@@ -17,7 +17,7 @@ These homework assignments are intended to test your understanding of the variou
 Each folder inside `/homework/` (this folder) is a self-contained assignment. Some may focus on one particular concept, while others may require a combination of concepts to complete the task. You can test to see if your code completed the tasks by running the test suite for that specific assignment and making sure all the tests pass. They are set up purposefully to fail when you initially pull down the files, because they don't do anything yet. 😁
 
 By default, the test suite is configured to run tests on every folder inside `/homework/`. You can narrow down the test to just the assignment you're working on by passing the filename as a command argument for Jest to search against:
-`npm run test [filename]`
+`npm test [filename]`
 
 For example: `npm test data-wrangling`. Jest will do a "fuzzy filter" and run a test against any filename that comes close to your search term, so make sure you're spelling the name correctly.
 
