@@ -3,14 +3,14 @@ import {
   inventorNames,
   inventorsByEldest,
   inventorYearsLived,
-  peopleSorted
+  peopleSorted,
 } from "./arrays";
 
 describe("Inventors", () => {
   test("List inventors born in the 1500's", () => {
     expect(inventorsBirthYear()).toEqual([
       { first: "Galileo", last: "Galilei", year: 1564, passed: 1642 },
-      { first: "Johannes", last: "Kepler", year: 1571, passed: 1630 }
+      { first: "Johannes", last: "Kepler", year: 1571, passed: 1630 },
     ]);
   });
 
@@ -27,7 +27,7 @@ describe("Inventors", () => {
       "Lovelace, Ada",
       "Goode, Sarah E.",
       "Meitner, Lise",
-      "Hammarström, Hanna"
+      "Hammarström, Hanna",
     ]);
   });
 
@@ -44,7 +44,7 @@ describe("Inventors", () => {
       { first: "Marie", last: "Curie", passed: 1934, year: 1867 },
       { first: "Lise", last: "Meitner", passed: 1968, year: 1878 },
       { first: "Albert", last: "Einstein", passed: 1955, year: 1879 },
-      { first: "Katherine", last: "Blodgett", passed: 1979, year: 1898 }
+      { first: "Katherine", last: "Blodgett", passed: 1979, year: 1898 },
     ]);
   });
 
@@ -58,7 +58,7 @@ describe("Inventors", () => {
         first: "Nicolaus",
         last: "Copernicus",
         year: 1473,
-        passed: 1543
+        passed: 1543,
       },
       { first: "Albert", last: "Einstein", year: 1879, passed: 1955 },
       { first: "Galileo", last: "Galilei", year: 1564, passed: 1642 },
@@ -66,21 +66,21 @@ describe("Inventors", () => {
         first: "Hanna",
         last: "Hammarström",
         year: 1829,
-        passed: 1909
+        passed: 1909,
       },
       {
         first: "Katherine",
         last: "Blodgett",
         year: 1898,
-        passed: 1979
+        passed: 1979,
       },
       { first: "Isaac", last: "Newton", year: 1643, passed: 1727 },
       { first: "Max", last: "Planck", year: 1858, passed: 1947 },
-      { first: "Lise", last: "Meitner", year: 1878, passed: 1968 }
+      { first: "Lise", last: "Meitner", year: 1878, passed: 1968 },
     ]);
   });
 
-  test.only("Sort the people alphabetically by last name", () => {
+  test("Sort the people alphabetically by last name", () => {
     expect(peopleSorted()).toEqual([
       "Beck, Glenn",
       "Becker, Carl",
@@ -122,7 +122,7 @@ describe("Inventors", () => {
       "Black, Elk",
       "Blair, Robert",
       "Blair, Tony",
-      "Blake, William"
+      "Blake, William",
     ]);
   });
 });
