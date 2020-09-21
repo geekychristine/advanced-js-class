@@ -142,7 +142,8 @@ const filteredArray = inventors.filter(inventor => inventor.year > 1499 && inven
 
 return filteredArray;
 };
-
+//*****Explanation: First I tried to filter with just less than 1499, which left an uncaught date of 1473
+// to be added to the mutated array so to combat this I added a logical operator and a comparison operator of more than 1499
 
 // Array.prototype.map()
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
@@ -155,6 +156,9 @@ export const inventorNames = () => {
   
  return nameCalling;
 };
+//*** Explanation: I checked mdn for the appropriate syntax and went from there, then my code editor suggested I change it to a template literal instead of concatenating. 
+
+
 
 // Array.prototype.sort()
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
@@ -166,7 +170,8 @@ const oldTimers =
 
 return oldTimers;
 };
-
+///***  Explanation: studying the comparison operator on w3schools and stackoverflow, I realized that I needed to tell the (a)and(b) to focus on specific properties (ie. year)
+///this allowed us to get the ages for  each of the inventors (some of them really kicked it early, yeesh).
 
 // 4. Sort the inventors by years lived
 // (Hint: calculate their ages in the sort() comparison function. Check out sort() on MDN for examples.)
@@ -176,6 +181,9 @@ export const inventorYearsLived = () => {
     inventors.sort(function(a, b){return (a.passed - a.year) - (b.passed - b.year)})
 return cheatDeath;
 };
+///*** Explanation: similar to the solution above, deducting from properties (year and passed) compared them to each other via the comparison operator I was able to calculate years lived,
+//im still trying to understand how thats any different form the former solution, but the solution passed and I'm not digging deeper.
+
 
 // 5. sort Exercise
 // Sort the people alphabetically by last name
@@ -190,4 +198,7 @@ return rollCall;
 return 0;
 })
 console.log(nameSake);*/
-};
+}
+}
+
+//**Explanation: viewing mdn's definiton of sort, i just used it on the people array, this was decievingly easy, i though there was more and continued second guessing myself for 5 minutes
