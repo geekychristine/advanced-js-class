@@ -2,7 +2,7 @@
 
 body {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 a {
@@ -41,12 +41,16 @@ a {
 }
 
 .tab-content {
-  display: block;
+  display: none;
   padding: 24px;
 }
 
 /* Active State */
 .active .tab-list-trigger {
   background: #fff;
-  color: orange;
+  color: #02a;
+}
+
+.active.tab-content {
+  display: block;
 }
