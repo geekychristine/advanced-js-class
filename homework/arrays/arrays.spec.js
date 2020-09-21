@@ -80,7 +80,7 @@ describe("Inventors", () => {
     ]);
   });
 
-  test.only("Sort the people alphabetically by last name", () => {
+  test("Sort the people alphabetically by last name", () => {
     expect(peopleSorted()).toEqual([
       "Beck, Glenn",
       "Becker, Carl",
