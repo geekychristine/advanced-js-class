@@ -21,7 +21,9 @@
   },
   "jest": {
     "testPathIgnorePatterns": [
-      "/node_modules/"
+      "/node_modules/",
+      "/homework/data-wrangling",
+      "/homework/error-handling"
     ],
     "modulePathIgnorePatterns": [
       "./node_modules/",
