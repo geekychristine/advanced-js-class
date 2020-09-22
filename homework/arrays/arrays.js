@@ -61,22 +61,39 @@ export const people = [
 // Array.prototype.filter()
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
 // 1. Filter the list of inventors for those who were born in the 1500's
-export const inventorsBirthYear = () => {};
+export const inventorsBirthYear = inventors.filter(function(inventor){
+  return inventor.year > 1500 && inventor.year < 1599;
+});
+
+let inventorsBirthYear = inventors.filter(val => {
+  return val.year > 1500 && val.year < 1599;
+})
 
 // Array.prototype.map()
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 // 2. Give us an array of the inventors first and last names, e.g: "Curie, Marie"
-export const inventorNames = () => {};
+export const inventorNames = inventors.filter(function(inventor){
+  return inventor.last, inventor.first; 
+});
+
 
 // Array.prototype.sort()
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
 // 3. Sort the inventors by birth date, oldest to youngest
 export const inventorsByEldest = () => {};
 
+inventors.sort(function(a,b) {
+  return a.last - b.last && a.first - b.first;
+});
+
 // 4. Sort the inventors by years lived
 // (Hint: calculate their ages in the sort() comparison function. Check out sort() on MDN for examples.)
-export const inventorYearsLived = () => {};
+export const inventorYearsLived = inventors.sort(function()) => {};
+
+
 
 // 5. sort Exercise
 // Sort the people alphabetically by last name
-export const peopleSorted = () => {};
+export const peopleSorted = inventors.sort(function(a,b){
+  return a.last - b.last;
+});
