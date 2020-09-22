@@ -11,7 +11,7 @@ describe("Inventors", () => {
     expect(inventorsBirthYear()).toEqual([
       { first: "Galileo", last: "Galilei", year: 1564, passed: 1642 },
       { first: "Johannes", last: "Kepler", year: 1571, passed: 1630 },
-    ]);
+    ]); 
   });
 
   test("List of inventors' first and last names", () => {

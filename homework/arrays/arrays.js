@@ -76,7 +76,7 @@ export const inventorsByEldest = () => {};
 // 4. Sort the inventors by years lived
 // (Hint: calculate their ages in the sort() comparison function. Check out sort() on MDN for examples.)
 export const inventorYearsLived = () => {};
-
+ 
 // 5. sort Exercise
 // Sort the people alphabetically by last name
 export const peopleSorted = () => {};
