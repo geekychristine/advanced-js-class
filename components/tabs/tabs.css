@@ -3,23 +3,24 @@
 body {
   font-size: 16px;
   font-family: "Nunito", sans-serif;
+  color: #253237;
 }
 
 a {
-  color: #02a;
+  color: #253237;
   text-decoration: none;
 }
 
 /* Tab-specific styles */
 .tabs {
   display: block;
-  border: 2px solid #e1e2e3;
+  border: 2px solid #c2dfe3;
   border-radius: 5px;
 }
 
 .tab-list {
   display: inline-flex;
-  background: #e1e2e3;
+  background: #c2dfe3;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -43,14 +44,28 @@ a {
 .tab-content {
   display: none;
   padding: 24px;
+  align-items: center;
+}
+
+.tab-content .column {
+  padding-right: 48px;
+}
+
+.tab-content img {
+  width: 100%;
+  min-width: 400px;
+}
+
+.tab-content .column:last-child {
+  padding-right: 0;
 }
 
 /* Active State */
 .active.tab-list-trigger {
   background: #fff;
-  color: #02a;
+  color: #253237;
 }
 
 .active.tab-content {
-  display: block;
+  display: flex;
 }
