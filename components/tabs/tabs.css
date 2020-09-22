@@ -46,7 +46,7 @@ a {
 }
 
 /* Active State */
-.active .tab-list-trigger {
+.active.tab-list-trigger {
   background: #fff;
   color: #02a;
 }
