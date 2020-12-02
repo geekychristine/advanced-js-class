@@ -6,7 +6,7 @@ Working with arrays (lists) is one of the more common tasks in a job of a progra
 
 - [`.filter()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter): method **creates a new array** with all elements that pass the test implemented by the provided function.
 - [`.map()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map): method **creates a new array** populated with the results of calling a provided function on every element in the calling array.
-- [`.sort()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort): method sorts the elements of an array _in place_ and returns the sorted array.
+- [`.sort()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort): method sorts the elements of an array _in place_ and returns the sorted array. 
 
 ## Mutative Methods vs Non-Mutative Methods
 
